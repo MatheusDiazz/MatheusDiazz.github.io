@@ -1,4 +1,5 @@
 import './App.css'
+import atliqProject from './assets/AtliQ_Project.png';
 
 function ProjectCard({ title, description, imageUrl, projectUrl, repoUrl }) {
   return (
@@ -21,11 +22,11 @@ function ProjectCard({ title, description, imageUrl, projectUrl, repoUrl }) {
 function App() {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'A brief description of your first project. What was the technology used? What was the main goal?',
-      imageUrl: 'https://via.placeholder.com/300',
-      projectUrl: '#',
-      repoUrl: '#'
+      title: 'Hardware Company Analytics Dashboard',
+      description: 'Created an analytics dashboard using PowerBI to generate various visuals from which to get business insights',
+      imageUrl: atliqProject,
+      projectUrl: 'https://app.powerbi.com/view?r=eyJrIjoiYmQ2ZGU4ZjMtZWY5Yi00NmZlLTk0ZDctOGU1MmY0OWMzMjdhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9',
+      repoUrl: 'https://github.com/MatheusDiazz/Hardware-Business-Insights-Project'
     },
     {
       title: 'Project 2',
